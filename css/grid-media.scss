@@ -1,0 +1,142 @@
+@import "./_variables";
+@media only screen and (max-width: 360px) {
+  .cookies {
+    padding: 0;
+    .cookies--content {
+      flex-direction: column;
+      align-items: center;
+      img {
+        width: 50%;
+      }
+    }
+    .cookies--content-buttons {
+      flex-direction: column;
+      button {
+        margin: 15px 0;
+      }
+    }
+  }
+  .submit,
+  img {
+    margin-top: 10px;
+  }
+  .logo {
+    background: $background;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 35vh;
+    font-size: 26px;
+    padding: 0 10px;
+  }
+  .container {
+    grid-template-rows: 40% 5%;
+  }
+  .header {
+    line-height: 34px;
+    padding: 0 10px;
+    h1 {
+      font-size: 48px;
+    }
+    p {
+      font-size: 36px;
+    }
+  }
+  main {
+    width: 100%;
+    padding: 0 0%;
+  }
+  textarea {
+    height: 27vh;
+  }
+  .input--flex {
+    &.postal {
+      width: 30vw;
+    }
+  }
+  .captcha {
+    width: 100%;
+  }
+  .content {
+    margin: 20px;
+  }
+}
+@media only screen and(min-width: 361px) and (max-width: 1366px) {
+  .content {
+    width: 100%;
+    margin: auto;
+  }
+  .logo {
+    grid-area: 1/1/1/2;
+    margin-top: 20px;
+  }
+}
+@media only screen and(min-width: 361px) {
+  .container {
+    background-image: $background;
+    display: grid;
+    background-repeat: no-repeat;
+  }
+}
+@media only screen and (min-width: 361px) and(max-width: 768px) {
+  .container {
+    background-size: contain;
+    padding: 0vw 0 10vw;
+    grid-template-columns: repeat(6, calc(100vw / 6));
+    grid-template-rows: 5% 95%;
+  }
+  .content {
+    padding-right: 0;
+    max-width: 660px;
+    margin: auto;
+  }
+  main {
+    grid-area: 2/1/2/7;
+  }
+  .header {
+    margin-left: 50%;
+    width: 50vw;
+  }
+}
+@media only screen and (min-width: 769px) {
+  .header {
+    width: 80%;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1366px) {
+  .container {
+    background-size: contain;
+    padding: 0vw 0 10vw;
+    grid-template-columns: repeat(12, calc(100vw / 12));
+  }
+  main {
+    grid-area: 2/7/2/13;
+  }
+  .content {
+    width: 100%;
+    padding-right: 30px;
+  }
+  label {
+    width: 85%;
+  }
+}
+@media only screen and (max-width: 1367px) {
+  .content {
+    box-sizing: border-box;
+  }
+}
+@media only screen and (min-width: 1367px) {
+  .container {
+    padding: 2vw $container-left-right-padding 10vw;
+    min-height: 100vh;
+    grid-template-columns: repeat(
+      12,
+      (100vw-$container-left-right-padding * 2)/12
+    );
+  }
+  main {
+    grid-area: 2/7/2/13;
+  }
+  .content {
+    width: 570px;
+  }
+}

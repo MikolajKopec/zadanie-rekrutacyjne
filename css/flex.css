@@ -1,0 +1,135 @@
+@media only screen and (max-width: 360px) {
+  .form--row {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .form--row input {
+    width: 70vw;
+  }
+  .confirm button {
+    margin: 10px 0;
+  }
+  .confirm img {
+    width: 100%;
+  }
+  textarea {
+    height: 20vh;
+  }
+  .cookies--content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .cookies--content img {
+    width: 50%;
+  }
+  .cookies--content-buttons {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .cookies--content-buttons button {
+    margin: 10px 0;
+  }
+  .logo {
+    background: url(../img/grafika-top-2.png);
+    background-size: cover;
+    height: 40vh;
+    width: 100%;
+  }
+  .logo .logo-text {
+    margin-left: 30px;
+    font-size: 26px;
+  }
+  .header {
+    width: 80%;
+    margin: auto;
+  }
+  .content {
+    max-width: 310px;
+    margin: 20px auto;
+  }
+  .container {
+    background: none;
+  }
+}
+
+@media only screen and (min-width: 361px) {
+  .content {
+    max-width: 570px;
+    margin-bottom: 50px;
+  }
+  .logo {
+    margin: 50px;
+  }
+  .container {
+    background-image: url(../img/grafika-top-2.png);
+  }
+}
+
+@media only screen and (min-width: 361px) and (min-width: 361px) and (max-width: 768px) {
+  .header {
+    width: 55%;
+    margin-left: auto;
+  }
+}
+
+@media only screen and (min-width: 361px) and (max-width: 1366px) {
+  .container {
+    background-size: contain;
+  }
+}
+
+@media only screen and (min-width: 361px) and (min-width: 769px) {
+  .header {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 361px) {
+  .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+  }
+  .logo {
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+  }
+  main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    margin-left: auto;
+  }
+}
+/*# sourceMappingURL=flex.css.map */

@@ -1,0 +1,207 @@
+form {
+  border-radius: 0 0 8px 8px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 24px;
+}
+
+.thanks {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 2vw 2vw;
+  margin-bottom: 20px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.thanks h3,
+.thanks p {
+  margin: 0;
+}
+
+.thanks h3 {
+  font-size: 24px;
+}
+
+.thanks p {
+  font-size: 18px;
+}
+
+form,
+.thanks {
+  color: white;
+  background-color: #ec681b;
+  font-size: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+form label,
+.thanks label {
+  margin: 5px 0;
+}
+
+form .note,
+.thanks .note {
+  font-weight: 400;
+  font-style: italic;
+}
+
+form .note.s-14,
+.thanks .note.s-14 {
+  font-size: 14px;
+}
+
+form .note.s-16,
+.thanks .note.s-16 {
+  font-size: 16px;
+}
+
+form input,
+.thanks input {
+  border-radius: 4px;
+  border: none;
+  margin-right: 5px;
+}
+
+form input,
+form textarea,
+.thanks input,
+.thanks textarea {
+  padding: 8px 12px;
+}
+
+form .submit,
+.thanks .submit {
+  background-color: #074885;
+  border: none;
+  font-size: 18px;
+  color: white;
+  padding: 0 50px;
+  border-radius: 8px;
+  -ms-flex-item-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-self: stretch;
+  padding: 20px 60px;
+}
+
+form ::-webkit-input-placeholder,
+.thanks ::-webkit-input-placeholder {
+  padding: 10px;
+  font-style: italic;
+  color: #999999;
+}
+
+form :-ms-input-placeholder,
+.thanks :-ms-input-placeholder {
+  padding: 10px;
+  font-style: italic;
+  color: #999999;
+}
+
+form ::-ms-input-placeholder,
+.thanks ::-ms-input-placeholder {
+  padding: 10px;
+  font-style: italic;
+  color: #999999;
+}
+
+form ::placeholder,
+.thanks ::placeholder {
+  padding: 10px;
+  font-style: italic;
+  color: #999999;
+}
+
+.form--row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  width: 100%;
+}
+
+.input--flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.input--flex.postal {
+  width: 25%;
+}
+
+.input--flex input {
+  padding: 8px;
+}
+
+.input--checkbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  padding: 22px 0;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.input--checkbox input {
+  margin-top: 5px;
+  zoom: 2;
+}
+
+.input--checkbox .more {
+  color: #ffd95d;
+  cursor: pointer;
+}
+
+.input--checkbox .more:hover {
+  color: #074885;
+}
+
+textarea {
+  resize: none;
+  border-radius: 8px;
+  border: none;
+}
+
+textarea::-webkit-input-placeholder {
+  font-style: italic;
+  font-size: 16px;
+}
+
+textarea:-ms-input-placeholder {
+  font-style: italic;
+  font-size: 16px;
+}
+
+textarea::-ms-input-placeholder {
+  font-style: italic;
+  font-size: 16px;
+}
+
+textarea::placeholder {
+  font-style: italic;
+  font-size: 16px;
+}
+/*# sourceMappingURL=form.css.map */

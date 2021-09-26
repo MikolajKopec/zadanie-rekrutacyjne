@@ -1,0 +1,114 @@
+@import "./variables";
+form {
+  border-radius: 0 0 $round-radius $round-radius;
+  justify-content: space-between;
+  padding: 0 24px;
+}
+.thanks {
+  justify-content: center;
+  padding: 2vw 2vw;
+  margin-bottom: 20px;
+  text-align: center;
+  h3,
+  p {
+    margin: 0;
+  }
+  h3 {
+    font-size: 24px;
+  }
+  p {
+    font-size: 18px;
+  }
+  border-radius: $round-radius;
+}
+form,
+.thanks {
+  color: white;
+  background-color: $secondary;
+  font-size: 16px;
+  display: flex;
+  flex-wrap: wrap;
+
+  label {
+    margin: 5px 0;
+  }
+  .note {
+    font-weight: 400;
+    font-style: italic;
+    &.s-14 {
+      font-size: 14px;
+    }
+    &.s-16 {
+      font-size: 16px;
+    }
+  }
+  input {
+    border-radius: $round-radius/2;
+    border: none;
+    margin-right: 5px;
+  }
+  input,
+  textarea {
+    padding: 8px 12px;
+  }
+  .submit {
+    background-color: $main;
+    border: none;
+    font-size: 18px;
+    color: white;
+    padding: 0 50px;
+    border-radius: $round-radius;
+    align-self: stretch;
+    padding: 20px 60px;
+  }
+  ::placeholder {
+    padding: 10px;
+    font-style: italic;
+    color: $placeholder;
+  }
+}
+.form--row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+}
+.input--flex {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  &.postal {
+    width: 25%;
+  }
+  input {
+    padding: 8px;
+  }
+}
+.input--checkbox {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 22px 0;
+  font-size: 12px;
+  font-weight: 400;
+  input {
+    margin-top: 5px;
+    zoom: 2;
+  }
+  .more {
+    color: $more;
+    cursor: pointer;
+    &:hover {
+      color: $main;
+    }
+  }
+}
+textarea {
+  resize: none;
+  border-radius: $round-radius;
+  border: none;
+}
+textarea::placeholder {
+  font-style: italic;
+  font-size: 16px;
+}

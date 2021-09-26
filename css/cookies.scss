@@ -15,7 +15,7 @@
     }
   }
   .cookies--content-buttons {
-    width: 70%;
+    width: 90%;
     display: flex;
     justify-content: space-evenly;
   }
@@ -23,11 +23,10 @@
     font-size: 18px;
     font-weight: 700;
     color: white;
-    padding: 14px 28px;
+    padding: 0px 50px;
     border: white solid 1px;
     background-color: $main;
     border-radius: $round-radius;
-    width: 218px;
     height: 50px;
   }
   .cookies--buttons-more:hover,

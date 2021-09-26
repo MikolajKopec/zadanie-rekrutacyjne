@@ -1,3 +1,7 @@
+.cookies--content-buttons button {
+  margin: 0 20px;
+}
+
 body {
   font-family: "Lato", sans-serif;
   font-size: 24px;

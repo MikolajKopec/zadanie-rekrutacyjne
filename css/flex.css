@@ -97,6 +97,9 @@
   .header {
     width: 80%;
   }
+  .logo {
+    margin: 50px 0 0 20vw;
+  }
 }
 
 @media only screen and (min-width: 361px) {
@@ -129,7 +132,7 @@
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
-    margin-left: auto;
+    margin-left: 52%;
   }
 }
 /*# sourceMappingURL=flex.css.map */
